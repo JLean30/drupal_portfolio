@@ -1,0 +1,21 @@
+uuid: c1a81206-bc4f-45f6-b70e-98cb81840251
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_banner_title
+    - paragraphs.paragraphs_type.skills_listing
+  module:
+    - text
+id: paragraph.skills_listing.field_banner_title
+field_name: field_banner_title
+entity_type: paragraph
+bundle: skills_listing
+label: 'Nombre habilidad'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

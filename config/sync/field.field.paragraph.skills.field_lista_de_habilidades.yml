@@ -1,0 +1,43 @@
+uuid: c4a9e254-b633-4188-afa0-79f2f50ad678
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lista_de_habilidades
+    - paragraphs.paragraphs_type.skills
+    - paragraphs.paragraphs_type.skills_listing
+  module:
+    - entity_reference_revisions
+id: paragraph.skills.field_lista_de_habilidades
+field_name: field_lista_de_habilidades
+entity_type: paragraph
+bundle: skills
+label: 'lista de habilidades'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      skills_listing: skills_listing
+    target_bundles_drag_drop:
+      about_me:
+        weight: 6
+        enabled: false
+      banner:
+        weight: 7
+        enabled: false
+      portfolio_list:
+        weight: 8
+        enabled: false
+      skills:
+        weight: 9
+        enabled: false
+      skills_listing:
+        enabled: true
+        weight: 10
+field_type: entity_reference_revisions

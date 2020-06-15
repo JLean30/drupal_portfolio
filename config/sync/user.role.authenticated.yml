@@ -1,0 +1,55 @@
+uuid: d729e283-fffa-49da-a12f-bf37463a07a6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access content overview'
+  - 'access files overview'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access taxonomy overview'
+  - 'access user profiles'
+  - 'administer views'
+  - 'bypass paragraphs type content access'
+  - 'create paragraph content about_me'
+  - 'create paragraph content banner'
+  - 'create paragraph content portfolio'
+  - 'create paragraph content portfolio_listing'
+  - 'create paragraph content skills'
+  - 'create paragraph content skills_listing'
+  - 'delete all revisions'
+  - 'delete paragraph content about_me'
+  - 'delete paragraph content banner'
+  - 'delete paragraph content portfolio'
+  - 'delete paragraph content portfolio_listing'
+  - 'delete paragraph content skills'
+  - 'delete paragraph content skills_listing'
+  - 'post comments'
+  - 'revert all revisions'
+  - 'search content'
+  - 'skip comment approval'
+  - 'update paragraph content about_me'
+  - 'update paragraph content banner'
+  - 'update paragraph content portfolio_listing'
+  - 'update paragraph content skills'
+  - 'update paragraph content skills_listing'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view paragraph content about_me'
+  - 'view paragraph content banner'
+  - 'view paragraph content portfolio'
+  - 'view paragraph content portfolio_listing'
+  - 'view paragraph content skills'
+  - 'view paragraph content skills_listing'
+  - 'view unpublished paragraphs'

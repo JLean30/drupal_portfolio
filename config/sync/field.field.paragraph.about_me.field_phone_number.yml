@@ -1,0 +1,21 @@
+uuid: a446866f-5d5d-47c4-aa64-734e6828a6dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_phone_number
+    - paragraphs.paragraphs_type.about_me
+  module:
+    - text
+id: paragraph.about_me.field_phone_number
+field_name: field_phone_number
+entity_type: paragraph
+bundle: about_me
+label: 'Phone number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

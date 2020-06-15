@@ -1,0 +1,23 @@
+uuid: 61e2a2b5-1357-42a2-8f78-ce02bb11e14a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_banner_btn
+    - paragraphs.paragraphs_type.skills
+  module:
+    - link
+id: paragraph.skills.field_banner_btn
+field_name: field_banner_btn
+entity_type: paragraph
+bundle: skills
+label: 'Works button'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

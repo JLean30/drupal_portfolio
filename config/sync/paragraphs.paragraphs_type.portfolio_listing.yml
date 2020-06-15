@@ -1,0 +1,10 @@
+uuid: 469a6a7b-c527-421e-ac4f-ce014229df9d
+langcode: en
+status: true
+dependencies: {  }
+id: portfolio_listing
+label: 'portafolio lista trabajos'
+icon_uuid: null
+icon_default: null
+description: 'paragraph para los trabajos multiples'
+behavior_plugins: {  }

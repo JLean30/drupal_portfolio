@@ -1,0 +1,22 @@
+uuid: bef52745-3cfb-4e05-9ab5-d25892470438
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_profile
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: yg_profile_messages
+theme: yg_profile
+region: slider
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

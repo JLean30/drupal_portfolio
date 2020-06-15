@@ -1,0 +1,21 @@
+uuid: 02ade20e-b0a7-4653-bc34-3618857ecf13
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_sub_title
+    - paragraphs.paragraphs_type.portfolio
+  module:
+    - text
+id: paragraph.portfolio.field_about_sub_title
+field_name: field_about_sub_title
+entity_type: paragraph
+bundle: portfolio
+label: 'portafolio sub title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

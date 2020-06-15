@@ -1,0 +1,10 @@
+uuid: 25c8036f-36f3-4ddd-ba5d-5774e416c64a
+langcode: en
+status: true
+dependencies: {  }
+id: portfolio
+label: 'Trabajos de portafolio'
+icon_uuid: null
+icon_default: null
+description: 'Paragraph para portafolio'
+behavior_plugins: {  }

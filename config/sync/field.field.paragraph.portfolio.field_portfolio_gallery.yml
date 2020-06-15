@@ -1,0 +1,46 @@
+uuid: d2f4aba9-a065-4be0-8daf-91efdfa57bfc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_portfolio_gallery
+    - paragraphs.paragraphs_type.portfolio
+    - paragraphs.paragraphs_type.portfolio_listing
+  module:
+    - entity_reference_revisions
+id: paragraph.portfolio.field_portfolio_gallery
+field_name: field_portfolio_gallery
+entity_type: paragraph
+bundle: portfolio
+label: 'lista de trabajos'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      portfolio_listing: portfolio_listing
+    target_bundles_drag_drop:
+      about_me:
+        weight: 7
+        enabled: false
+      banner:
+        weight: 8
+        enabled: false
+      portfolio:
+        weight: 9
+        enabled: false
+      portfolio_listing:
+        enabled: true
+        weight: 10
+      skills:
+        weight: 11
+        enabled: false
+      skills_listing:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

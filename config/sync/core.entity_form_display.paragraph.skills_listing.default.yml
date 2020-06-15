@@ -1,0 +1,34 @@
+uuid: e0b1e7a4-14fc-4ca4-8437-33df35ba9926
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.skills_listing.field_banner_title
+    - field.field.paragraph.skills_listing.field_phone_number
+    - paragraphs.paragraphs_type.skills_listing
+  module:
+    - text
+id: paragraph.skills_listing.default
+targetEntityType: paragraph
+bundle: skills_listing
+mode: default
+content:
+  field_banner_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_phone_number:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true

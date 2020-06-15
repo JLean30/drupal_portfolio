@@ -68,7 +68,7 @@ p.lead {
     border-color: #000000 !important;
 }
 .btn-primary {
-    background: #000000;    
+    background: #000000;
     border-radius: 3px;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
@@ -87,14 +87,14 @@ p.lead {
     color: #000000 !important;
 }
 .btn-light {
-    background: #000000;    
+    background: #000000;
     border-radius: 3px;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
     border: 0;
     margin-right: 20px;
-    color: #ffffff;    
+    color: #ffffff;
 }
 .btn-light:hover,
 .btn-light:focus,
@@ -146,7 +146,7 @@ header {
 }
 
 .nav-menu.is-scrolling {
-    padding: 5px;  
+    padding: 5px;
 }
 .navbar-nav .nav-link {
     position: relative;
@@ -158,8 +158,8 @@ header {
 }
 #hire-me {
     background: #282667  center no-repeat;
-    background-size: cover;    
-    min-height: 400px;     
+    background-size: cover;
+    min-height: 400px;
 }
 #hire-me h3 {
     padding: 30px 0px;
@@ -222,7 +222,7 @@ header {
 .skill {
     margin-bottom: 35px;
     position: relative;
-    overflow:hidden;        
+    overflow:hidden;
 }
 .skill > p {
     font-size: 18px;
@@ -248,7 +248,7 @@ header {
 }
 .skill1{
     width: 95%;
-        
+
 }
 .skill-bar span{
     position: absolute;
@@ -259,7 +259,7 @@ header {
     font-weight: 500;
 }
 .skill-bar {
-    position: relative;        
+    position: relative;
 }
 .skill1 .skill-count1 {
     right: 0;
@@ -290,6 +290,7 @@ header {
     position: relative;
     width: 100%;
     overflow: hidden;
+    max-height: 22em;
 }
 .portfolio-item:hover {
     cursor: pointer;
@@ -333,10 +334,10 @@ header {
     margin-bottom: 10px;
 }
 .form-submit {
-    margin-top: 20px;    
+    margin-top: 20px;
 }
 .feature-body .icon {
-    padding-top: 15px;    
+    padding-top: 15px;
     padding-bottom: 15px;
 }
 @media (max-width:767px) {
@@ -449,7 +450,7 @@ footer p{
 /* strat user login form*/
 .path-user .breadcrumb{
     display: block;
-    background-color: transparent; 
+    background-color: transparent;
 }
 .path-user h2::after{
     background-color: transparent;
@@ -708,10 +709,10 @@ footer p{
  #home .btn-primary{
     margin-bottom: 15px;
  }
-}  
+}
 .region.region-primary-menu {
     width: 100%;
-} 
+}
 
 /* end page not found */
  /*End Custom theme css */}

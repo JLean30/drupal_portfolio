@@ -1,0 +1,28 @@
+uuid: 24f69f8c-19f9-4326-8f65-52a72a3ef7cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_banner_btn_two
+    - paragraphs.paragraphs_type.banner
+  module:
+    - link
+id: paragraph.banner.field_banner_btn_two
+field_name: field_banner_btn_two
+entity_type: paragraph
+bundle: banner
+label: 'Banner link CV'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'https://jeanbrenes.com/cv'
+    title: 'Download CV'
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

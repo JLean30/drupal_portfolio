@@ -1,0 +1,21 @@
+uuid: 72c3987c-7d61-40b5-8c20-30553aa891df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_name
+    - paragraphs.paragraphs_type.about_me
+  module:
+    - text
+id: paragraph.about_me.field_about_name
+field_name: field_about_name
+entity_type: paragraph
+bundle: about_me
+label: 'About Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

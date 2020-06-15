@@ -1,0 +1,21 @@
+uuid: f735b364-c391-4b70-aff8-c85edd1329a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_desc
+    - paragraphs.paragraphs_type.about_me
+  module:
+    - text
+id: paragraph.about_me.field_about_desc
+field_name: field_about_desc
+entity_type: paragraph
+bundle: about_me
+label: 'About Description '
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

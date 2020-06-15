@@ -1,0 +1,37 @@
+uuid: b63daa6d-693a-4651-bc6b-122be6af2b90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about_secti
+    - node.type.page
+    - paragraphs.paragraphs_type.about_me
+  module:
+    - entity_reference_revisions
+id: node.page.field_about_secti
+field_name: field_about_secti
+entity_type: node
+bundle: page
+label: 'About Section'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      about_me: about_me
+    target_bundles_drag_drop:
+      about_me:
+        enabled: true
+        weight: 4
+      banner:
+        weight: 5
+        enabled: false
+      portfolio_list:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,20 @@
+uuid: 06a2c736-22aa-48e1-935d-69637fe2888f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_profile
+id: mainpagecontent
+theme: yg_profile
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

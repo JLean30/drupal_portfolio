@@ -1,0 +1,21 @@
+uuid: ea66fa67-c2c4-4da7-b08c-7dfe71a9ad81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_email
+    - paragraphs.paragraphs_type.about_me
+  module:
+    - text
+id: paragraph.about_me.field_email
+field_name: field_email
+entity_type: paragraph
+bundle: about_me
+label: Email
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

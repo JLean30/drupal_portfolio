@@ -1,0 +1,10 @@
+uuid: f97a9f4a-1c11-4af7-83fc-06562ed7c21e
+langcode: en
+status: true
+dependencies: {  }
+id: skills
+label: skills
+icon_uuid: null
+icon_default: null
+description: 'paragraphs para section de skills'
+behavior_plugins: {  }

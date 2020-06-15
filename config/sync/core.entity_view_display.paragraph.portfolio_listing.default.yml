@@ -1,0 +1,33 @@
+uuid: f94d4277-a246-4941-9a9c-6d222971af00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.portfolio_listing.field_banner_bg_image
+    - field.field.paragraph.portfolio_listing.field_banner_title
+    - paragraphs.paragraphs_type.portfolio_listing
+  module:
+    - image
+    - text
+id: paragraph.portfolio_listing.default
+targetEntityType: paragraph
+bundle: portfolio_listing
+mode: default
+content:
+  field_banner_bg_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_banner_title:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

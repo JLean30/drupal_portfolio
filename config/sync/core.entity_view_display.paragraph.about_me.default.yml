@@ -1,0 +1,107 @@
+uuid: 4b7e236a-9fea-44c9-af8e-592e80d71de5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_me.field_about_btn
+    - field.field.paragraph.about_me.field_about_desc
+    - field.field.paragraph.about_me.field_about_image
+    - field.field.paragraph.about_me.field_about_name
+    - field.field.paragraph.about_me.field_about_sub_title
+    - field.field.paragraph.about_me.field_about_title
+    - field.field.paragraph.about_me.field_email
+    - field.field.paragraph.about_me.field_email_image
+    - field.field.paragraph.about_me.field_phone_image
+    - field.field.paragraph.about_me.field_phone_number
+    - paragraphs.paragraphs_type.about_me
+  module:
+    - image
+    - link
+    - text
+id: paragraph.about_me.default
+targetEntityType: paragraph
+bundle: about_me
+mode: default
+content:
+  field_about_btn:
+    weight: 9
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_about_desc:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_about_image:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_about_name:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_about_sub_title:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_about_title:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_email:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_email_image:
+    weight: 5
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_phone_image:
+    weight: 7
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_phone_number:
+    weight: 10
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

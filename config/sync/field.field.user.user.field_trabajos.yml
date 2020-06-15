@@ -1,0 +1,21 @@
+uuid: 3f8a38ad-ba08-4bc7-bd87-059f8ded3c27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_trabajos
+  module:
+    - text
+    - user
+id: user.user.field_trabajos
+field_name: field_trabajos
+entity_type: user
+bundle: user
+label: Trabajos
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

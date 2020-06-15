@@ -1,0 +1,21 @@
+uuid: a58bc3dc-96e5-48c3-a2dc-f92afc3cd0f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_sub_title
+    - paragraphs.paragraphs_type.about_me
+  module:
+    - text
+id: paragraph.about_me.field_about_sub_title
+field_name: field_about_sub_title
+entity_type: paragraph
+bundle: about_me
+label: 'About sub title'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,25 @@
+uuid: 2b0bb331-3909-481f-8e43-c9be3da2c060
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_trabajos
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_trabajos:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  member_for: true

@@ -1,0 +1,10 @@
+uuid: 40c76ab4-6779-4de3-837c-680603392bf4
+langcode: en
+status: true
+dependencies: {  }
+id: banner
+label: Banner
+icon_uuid: null
+icon_default: null
+description: "paragraph para banner\r\n"
+behavior_plugins: {  }

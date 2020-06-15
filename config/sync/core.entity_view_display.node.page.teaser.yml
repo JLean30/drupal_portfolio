@@ -1,0 +1,28 @@
+uuid: 62fd386e-1efc-468f-a415-e21f97bc7ec1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.page.field_about_secti
+    - field.field.node.page.field_paragraph_image_banner
+    - field.field.node.page.field_portafolio
+    - field.field.node.page.field_skills
+    - node.type.page
+  module:
+    - user
+_core:
+  default_config_hash: cSv5lDnbIgDug475Hdz3woED2XMqYv3awI-J9u1JLbY
+id: node.page.teaser
+targetEntityType: node
+bundle: page
+mode: teaser
+content:
+  links:
+    weight: 101
+    region: content
+hidden:
+  field_about_secti: true
+  field_paragraph_image_banner: true
+  field_portafolio: true
+  field_skills: true

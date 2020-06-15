@@ -1,0 +1,21 @@
+uuid: 91297c27-87c7-486f-b7b8-e54cfe8a0e4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_sub_title
+    - paragraphs.paragraphs_type.skills
+  module:
+    - text
+id: paragraph.skills.field_about_sub_title
+field_name: field_about_sub_title
+entity_type: paragraph
+bundle: skills
+label: 'Skills sub title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

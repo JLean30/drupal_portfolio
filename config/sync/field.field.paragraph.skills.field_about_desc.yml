@@ -1,0 +1,21 @@
+uuid: ea6a6bbf-c786-4969-840e-07cc2a5b86d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_desc
+    - paragraphs.paragraphs_type.skills
+  module:
+    - text
+id: paragraph.skills.field_about_desc
+field_name: field_about_desc
+entity_type: paragraph
+bundle: skills
+label: 'Skills Description '
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

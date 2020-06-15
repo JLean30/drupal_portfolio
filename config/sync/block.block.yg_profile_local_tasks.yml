@@ -1,0 +1,22 @@
+uuid: ece586ea-7e0a-4e75-8877-6cbfa16fc751
+langcode: en
+status: false
+dependencies:
+  theme:
+    - yg_profile
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: yg_profile_local_tasks
+theme: yg_profile
+region: header
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: false
+visibility: {  }

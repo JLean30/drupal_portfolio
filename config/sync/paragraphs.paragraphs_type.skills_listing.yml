@@ -1,0 +1,10 @@
+uuid: 1e04f0e5-8e8a-41c8-a60e-50d91954043f
+langcode: en
+status: true
+dependencies: {  }
+id: skills_listing
+label: 'skills listing'
+icon_uuid: null
+icon_default: null
+description: 'paragraph para la lista de skills'
+behavior_plugins: {  }

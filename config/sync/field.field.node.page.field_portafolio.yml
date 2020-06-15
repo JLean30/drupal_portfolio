@@ -1,0 +1,49 @@
+uuid: 357cd725-69c4-460c-b1db-d731080b4e67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_portafolio
+    - node.type.page
+    - paragraphs.paragraphs_type.portfolio
+  module:
+    - entity_reference_revisions
+id: node.page.field_portafolio
+field_name: field_portafolio
+entity_type: node
+bundle: page
+label: Portafolio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      portfolio: portfolio
+    target_bundles_drag_drop:
+      about_me:
+        weight: 8
+        enabled: false
+      banner:
+        weight: 9
+        enabled: false
+      contact:
+        weight: 10
+        enabled: false
+      portfolio:
+        enabled: true
+        weight: 11
+      portfolio_listing:
+        weight: 12
+        enabled: false
+      skills:
+        weight: 13
+        enabled: false
+      skills_listing:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,22 @@
+uuid: d57a3634-cfd5-4ba4-a08f-2556a400289a
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - yg_profile
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: yg_profile_help
+theme: yg_profile
+region: header
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

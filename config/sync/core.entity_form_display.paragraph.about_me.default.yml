@@ -1,0 +1,109 @@
+uuid: 63fae617-08cd-4585-9463-1df0d0a62e91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_me.field_about_btn
+    - field.field.paragraph.about_me.field_about_desc
+    - field.field.paragraph.about_me.field_about_image
+    - field.field.paragraph.about_me.field_about_name
+    - field.field.paragraph.about_me.field_about_sub_title
+    - field.field.paragraph.about_me.field_about_title
+    - field.field.paragraph.about_me.field_email
+    - field.field.paragraph.about_me.field_email_image
+    - field.field.paragraph.about_me.field_phone_image
+    - field.field.paragraph.about_me.field_phone_number
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.about_me
+  module:
+    - image
+    - link
+    - text
+id: paragraph.about_me.default
+targetEntityType: paragraph
+bundle: about_me
+mode: default
+content:
+  field_about_btn:
+    weight: 9
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_about_desc:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_about_image:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_about_name:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_about_sub_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_about_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_email:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_email_image:
+    weight: 5
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_phone_image:
+    weight: 7
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_phone_number:
+    weight: 10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true

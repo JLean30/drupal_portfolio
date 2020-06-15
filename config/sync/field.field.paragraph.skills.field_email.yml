@@ -1,0 +1,21 @@
+uuid: fa3908c3-b0b7-4001-b581-5d8b5f8cad98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_email
+    - paragraphs.paragraphs_type.skills
+  module:
+    - text
+id: paragraph.skills.field_email
+field_name: field_email
+entity_type: paragraph
+bundle: skills
+label: 'Descripcion breve'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

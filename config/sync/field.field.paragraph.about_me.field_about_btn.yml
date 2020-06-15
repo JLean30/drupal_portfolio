@@ -1,0 +1,23 @@
+uuid: c65ea3d1-7179-468c-b74a-87581d35dcab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_btn
+    - paragraphs.paragraphs_type.about_me
+  module:
+    - link
+id: paragraph.about_me.field_about_btn
+field_name: field_about_btn
+entity_type: paragraph
+bundle: about_me
+label: 'about btn'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 1
+  title: 1
+field_type: link

@@ -1,0 +1,10 @@
+uuid: 3bc3a480-31dd-49f8-bb79-614bc1b4178e
+langcode: en
+status: true
+dependencies: {  }
+id: about_me
+label: 'About me'
+icon_uuid: null
+icon_default: null
+description: 'Paragraph para la customizacion del about'
+behavior_plugins: {  }
